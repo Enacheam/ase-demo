@@ -10,4 +10,9 @@ public class ServiceController {
     public String sayDemoStatus(){
         return "ASE Demo Service is working fine!";
     }
+
+    @GetMapping("/demo/update")
+    public String fakeUpdate(){
+        return "ASE Demo environment has been updated";
+    }
 }
