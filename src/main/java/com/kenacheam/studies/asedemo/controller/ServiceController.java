@@ -15,4 +15,9 @@ public class ServiceController {
     public String fakeUpdate(){
         return "ASE Demo environment has been updated";
     }
+
+    @GetMapping("/demo/stop")
+    public String fakeUpdate(){
+        return "ASE Demo environment: faking... simulating stopping";
+    }
 }
